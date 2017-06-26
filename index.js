@@ -1,4 +1,5 @@
 // Write your code here.
+'use strict';
 
 const data = require('./data.js').testStrings;
 const removeSpaces = (text)=> text.replace(/[^a-zA-Z]/g, '')
